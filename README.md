@@ -1,17 +1,17 @@
 <!-- ================= MED-dost-ai README ================= -->
 <div align="center">
 
-  <h1 style="color:#0a5cff; font-size:38px;">🩺 MED-dost-ai</h1>
+  <h1 style="color:#0a5cff; font-size:40px;">🩺 MED-dost-ai</h1>
 
-  <p style="font-size:18px; max-width:700px;">
+  <p style="font-size:18px; max-width:750px;">
     <b>MED-dost-ai</b> is an AI-powered medical report simplifier that uses
     <b>Prompt Engineering</b> to convert complex medical reports into
-    easy-to-understand language for patients and non-medical users.
+    clear and easy-to-understand explanations in <b>English & Marathi</b>.
   </p>
 
   <img src="https://img.shields.io/badge/AI-Prompt%20Engineering-blue" />
   <img src="https://img.shields.io/badge/Domain-Healthcare-green" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/Language-English%20%7C%20Marathi-orange" />
 
 </div>
 
@@ -19,92 +19,123 @@
 
 <h2>📌 Problem Statement</h2>
 <p>
-Medical reports often contain complex medical terminology that is difficult
-for patients to understand. This communication gap can lead to confusion,
-anxiety, and poor healthcare decisions.
+Medical reports often contain complex terminology that is difficult
+for non-medical users to understand, leading to confusion and misinterpretation.
 </p>
 
 <h2>💡 Solution</h2>
 <p>
-<b>MED-dost-ai</b> uses advanced prompt engineering techniques with
-Large Language Models (LLMs) to simplify medical reports into
-clear, human-friendly explanations without losing important medical meaning.
+<b>MED-dost-ai</b> simplifies medical reports using prompt-engineered AI,
+making healthcare information clear, accessible, and language-friendly.
 </p>
 
 <h2>🚀 Key Features</h2>
 <ul>
-  <li>🧠 AI-based medical report explanation</li>
-  <li>✍️ Prompt-engineered responses for accuracy</li>
-  <li>📄 Simplified language for non-medical users</li>
-  <li>⚡ Fast and user-friendly output</li>
-  <li>🔒 No report data stored (privacy focused)</li>
+  <li>🧠 AI-powered medical report simplification</li>
+  <li>✍️ Prompt engineering for accurate explanations</li>
+  <li>🌐 English & Marathi language support</li>
+  <li>📄 Clean and readable summaries</li>
+  <li>🔒 Privacy-focused design</li>
 </ul>
+
+<hr/>
+
+<h2>🖼️ Project Screenshots</h2>
+
+<!-- COMMON IMAGE STYLE -->
+<div style="
+  border:1px solid #d0d7de;
+  border-radius:10px;
+  padding:10px;
+  background:#f9fafb;
+  margin:25px 0;
+">
+
+<h3>📤 Upload Medical Report Page</h3>
+<div align="center">
+  <img src="https://github.com/Nishuyeole12/medical-report-simplifier/blob/67f37a6714bb76954a7b9a83c36432ea79b612d5/Show_Work/Upload%20Page.png?raw=true"
+       alt="Upload Page"
+       style="width:90%; border-radius:6px; border:1px solid #c9d1d9;" />
+</div>
+
+</div>
+
+<div style="
+  border:1px solid #d0d7de;
+  border-radius:10px;
+  padding:10px;
+  background:#f9fafb;
+  margin:25px 0;
+">
+
+<h3>📄 Simplified Report Summary (English)</h3>
+<div align="center">
+  <img src="https://github.com/Nishuyeole12/medical-report-simplifier/blob/67f37a6714bb76954a7b9a83c36432ea79b612d5/Show_Work/Report%20summary%20English.png?raw=true"
+       alt="English Summary"
+       style="width:90%; border-radius:6px; border:1px solid #c9d1d9;" />
+</div>
+
+</div>
+
+<div style="
+  border:1px solid #d0d7de;
+  border-radius:10px;
+  padding:10px;
+  background:#f9fafb;
+  margin:25px 0;
+">
+
+<h3>📄 Simplified Report Summary (Marathi)</h3>
+<div align="center">
+  <img src="https://github.com/Nishuyeole12/medical-report-simplifier/blob/67f37a6714bb76954a7b9a83c36432ea79b612d5/Show_Work/Report%20Summery%20marathi.png?raw=true"
+       alt="Marathi Summary"
+       style="width:90%; border-radius:6px; border:1px solid #c9d1d9;" />
+</div>
+
+</div>
+
+<hr/>
 
 <h2>🛠️ Tech Stack</h2>
 <table>
   <tr>
-    <td><b>Technology</b></td>
-    <td><b>Usage</b></td>
+    <th align="left">Technology</th>
+    <th align="left">Purpose</th>
   </tr>
   <tr>
     <td>Python</td>
-    <td>Backend & Logic</td>
+    <td>Backend logic</td>
   </tr>
   <tr>
     <td>Prompt Engineering</td>
-    <td>Medical Text Simplification</td>
+    <td>Medical text simplification</td>
   </tr>
   <tr>
     <td>LLM (OpenAI / HuggingFace)</td>
-    <td>Natural Language Understanding</td>
+    <td>Language understanding</td>
   </tr>
   <tr>
-    <td>Streamlit / Web UI</td>
+    <td>Streamlit</td>
     <td>User Interface</td>
   </tr>
 </table>
 
-<h2>⚙️ How It Works</h2>
-<ol>
-  <li>User uploads or pastes a medical report</li>
-  <li>Report is processed using prompt-engineered instructions</li>
-  <li>AI generates simplified, readable explanations</li>
-  <li>User receives clear medical insights</li>
-</ol>
-
-<h2>📈 Use Cases</h2>
-<ul>
-  <li>Patients understanding lab reports</li>
-  <li>Senior citizens reading prescriptions</li>
-  <li>Healthcare awareness platforms</li>
-  <li>Medical assistants & helpdesks</li>
-</ul>
-
 <h2>🌍 Impact</h2>
 <p>
-<b>MED-dost-ai</b> helps bridge the gap between doctors and patients by
-making healthcare information more accessible, improving understanding,
-and enabling better medical decision-making.
+This project improves patient understanding, reduces confusion,
+and bridges the communication gap between doctors and patients.
 </p>
-
-<h2>🔮 Future Enhancements</h2>
-<ul>
-  <li>Multi-language support (Hindi, Marathi, etc.)</li>
-  <li>Voice-based explanations</li>
-  <li>PDF & image report support</li>
-  <li>Doctor-reviewed explanation mode</li>
-</ul>
 
 <h2>👨‍💻 Developed By</h2>
 <p>
 <b>Nishu Yeole</b><br/>
-Aspiring Data Scientist | AI & ML Enthusiast<br/>
-📫 GitHub: <a href="https://github.com/">github.com/your-username</a>
+Aspiring Data Analyst | AI & ML Enthusiast<br/>
+🔗 GitHub: <a href="https://github.com/Nishuyeole12">github.com/Nishuyeole12</a>
 </p>
 
 <hr/>
 
 <div align="center">
-  <h3>⭐ If you like this project, give it a star!</h3>
+  <h3>⭐ If you like this project, please give it a star!</h3>
 </div>
 <!-- ================= END ================= -->
